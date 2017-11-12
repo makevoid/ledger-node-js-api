@@ -7,7 +7,17 @@ This package defines basic communication methods for Ledger Personal Security De
 
 When using in a browser, make sure to set up "Browser mode" in the application settings on the device if available.
 
+## Prerequisites for Node
+
+- libusb
+
+Debian/Ubuntu: `apt install libusb-1.0.0-dev`
+
+OSX: `brew install libusb`
+
+
 ## Initialization on Node
+
 
 The communication API relies on node-hid
 
